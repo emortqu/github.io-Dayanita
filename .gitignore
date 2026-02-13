@@ -1,0 +1,42 @@
+# Dependencias
+node_modules/
+
+# Builds / outputs
+dist/
+build/
+out/
+coverage/
+
+# Cache / tooling
+.vite/
+.cache/
+.parcel-cache/
+.npm/
+.pnpm-store/
+.yarn/
+.eslintcache
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env (secretos)
+.env
+.env.*
+!.env.example
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.local
+
